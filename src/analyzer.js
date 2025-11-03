@@ -18,3 +18,4 @@ function countChars(text) {
 
 // Nota: NON esportiamo le funzioni (primo problema da risolvere!)
 // Dovrai aggiungere: module.exports = { countWords, countLines, countChars };
+module.exports = { countWords, countLines, countChars };
