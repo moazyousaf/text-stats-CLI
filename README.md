@@ -4,3 +4,5 @@ Word count, Line count and Char count
 Installation: 1. clone the repository 2. npm install -g .
 
 Usage: text-stats myfile.txt
+
+everything is corrected in the develp branch

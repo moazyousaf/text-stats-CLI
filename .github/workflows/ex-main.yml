@@ -1,0 +1,17 @@
+name: Node.js CLI
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Configure Node.js
+        uses: actions/setup-node@v3
+        run: npm install
+      - name: Run tests
+        run: npm run test:coverage
