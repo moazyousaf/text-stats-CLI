@@ -1,6 +1,17 @@
-Title: Text-stats CLI
-Description: A simple CLI tool that takes a text file as input and outputs its stats like
-Word count, Line count and Char count
-Installation: 1. clone the repository 2. npm install -g .
+# Text-stats CLI
 
-Usage: text-stats myfile.txt
+A simple CLI tool that takes a text file as input and outputs its stats
+
+## Features
+
+From a text file as input the program outputs its Word count, Line count and Char count
+
+## Installation
+
+1. clone the repository
+2. npm install -g
+3. npm start
+
+## Usage
+
+text-stats myfile.txt
